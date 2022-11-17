@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+@font-face {
+    font-family: poppins;
+    src: url(../fontes/Poppins-ExtraBold.ttf);
+    font-size: 800px;
+}
+
+#header {
+background-color: #fcc302;
+background-image: url(../img/dog-img.png);
+background-size:    20% auto;
+background-repeat: no-repeat;
+background-position: right center;
+padding-top: 249px;
+padding-bottom: 249px;
+
+}
+.continair {
+max-width: 1190px;
+margin: auto;
+padding: 0 15px;
+}
+.continair h1 {
+    font-size: 66.667px;
+    line-height: 1.2;
+    text-align: left;
+    color: #fff;
+}
+.continair p {
+    font-size: 29px;
+    color: #fff;
+    text-align: left;
+    line-height: 1.2;
+
+}
+.continair a {
+    border-style: none;
+    border-color: #00bec0;
+ 
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+li {
+ display: inline;
+ float: left;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #fff;
+
+}
+li a:hover{
+    background-color:#574405;
+}
+#nav{
+    background-color: #d4ab22;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 15px 0;
+    display: inline-flexbox;
+
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 0 -15px;
+}
+.about{
+    background-color: #fff;
+    padding: 100px 0 ;
+}
+.col-6{
+    float: left;
+    padding: 15px;
+    color: black;
+}
+.about p{
+    margin-bottom: 16px;
+    color: black;
+}
+.col-61{  
+    padding: 15px;
+    position: absolute;
+   left: 793px;
+   top: 950px;
+
+}
+.btn {
+    color: #f4f2ec;
+    background-color: #d4ab22;
+    font-size: 20px;
+    line-height: 1.3;
+    text-decoration: none;
+    
+    padding: 10px 0;
+    position: relative;
+    border-radius: 5px;
+    width: 182px;
+    height: 169px;
+    left: 5px;
+    top: 20px;
+
+}
